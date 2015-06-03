@@ -69,7 +69,7 @@ class permutations {
   * Sort the data array at the beginning.
   * This allows to skip values that are larger than the desired sum.
   */
-  function quick($unsorted_data) {
+  public function quick($unsorted_data) {
     $size = count($unsorted_data);
     if($size <= 1) {
       return $unsorted_data;
