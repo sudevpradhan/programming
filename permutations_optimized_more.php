@@ -4,8 +4,8 @@
 $inputArray = array(1, 3, 4, 5, 6, 2, 7, 8, 9, 10, 11, 13, 14, 15);
 $desiredSum = 15;
 
-$inputArray = array(5, 5, 15, 10);
-$desiredSum = 15;
+//$inputArray = array(5, 5, 15, 10);
+//$desiredSum = 15;
 
 $permutations = new permutations();
 $totalCombinations = $permutations->findAllPermutations($inputArray, $desiredSum);
@@ -13,9 +13,7 @@ print "\n\n ### " . $totalCombinations . " ###\n\n";exit;
 
 class permutations {
     
-  var $desiredSum;
-  private $sumCurrent;
-  var $combinations;
+  private $totalCombinations;
   
   public function __construct() {
     $this->totalCombinations = 0;
