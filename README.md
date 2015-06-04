@@ -35,9 +35,9 @@ Answer 4: The program has been written with negative numbers taken into consider
 
 Folder structure:
 ---------------- 
-<basefolder>/tests/phpunit.xml.dist
-<basefolder>/tests/PermutationsTest.php
-<basefolder>/Permutations.php
-<basefolder>/index.php
+- <basefolder>/tests/phpunit.xml.dist
+- <basefolder>/tests/PermutationsTest.php
+- <basefolder>/Permutations.php
+- <basefolder>/index.php
 
-Run tests (i.e. $ phpunit -c tests) from <basefolder> 
+- Run tests (i.e. $ phpunit -c tests) from <basefolder> 
